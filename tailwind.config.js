@@ -11,6 +11,7 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        "mobile-background": "url('/images/bg-sidebar-mobile.svg')"  
       },
       fontFamily: {
         "ubuntu-bold": ["var(--font-ubuntu-bold)"],
@@ -33,7 +34,7 @@ module.exports = {
           pink: "#F9818E",
           purple: "#483EFF",
           red: "#EE374A",
-          skyBlue: "#EE374A",
+          skyBlue: "#BEE2FD",
 
 
         }

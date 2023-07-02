@@ -1,7 +1,5 @@
 import { cn } from "@/lib/utils";
 import "./globals.css";
-import { Inter } from "next/font/google";
-import { Ubuntu } from "next/font/google";
 
 import localFont from "next/font/local";
 
@@ -32,7 +30,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "min-h-screen bg-background font-ubuntu-regular antialiased",
+          "min-h-screen bg-custom-skyBlue font-ubuntu-regular antialiased",
           fontBold.variable,
           fontMedium.variable,
           fontRegular.variable
