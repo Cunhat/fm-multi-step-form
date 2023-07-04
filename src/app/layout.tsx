@@ -30,7 +30,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "min-h-screen bg-custom-skyBlue font-ubuntu-regular antialiased",
+          "min-h-screen bg-background font-ubuntu-regular antialiased",
           fontBold.variable,
           fontMedium.variable,
           fontRegular.variable
