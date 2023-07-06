@@ -25,7 +25,7 @@ module.exports = {
         background: "#EFF5FF",
         border: "#D6D9E6",
         custom: {
-          denim: "#022959",
+          blue: "#022959",
           grey: {
             100: "#F8F9FF",
             300: "#D6D9E6",
@@ -36,9 +36,8 @@ module.exports = {
           pink: "#F9818E",
           purple: "#483EFF",
           red: "#EE374A",
-          skyBlue: "#BEE2FD",
-
-
+          skyBlue: "#BEE2FD"
+          
         }
       }
     },
