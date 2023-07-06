@@ -34,7 +34,7 @@ const StepItem: React.FC<StepItemProps> = ({
   return (
     <div className="flex gap-3 items-center" {...props}>
       <div className={ItemStyles({ active: active })}>{stepNumber}</div>
-      <div>
+      <div className="hidden sm:block">
         <p className="text-custom-lightBlue font-ubuntu-regular text-xs">
           {subTitle}
         </p>
@@ -103,7 +103,7 @@ export default function Home() {
       </StepsIndicator>
       <div className="bg-white rounded-xl w-[90%] h-auto justify-center sm:justify-normal flex items-center py-6 px-4 sm:max-w-[960px] sm:max-h-[600px] sm:p-3">
         <div className="hidden sm:flex flex-col sm:bg-desktop-background sm:h-[568px] w-[274px]">
-          <StepsIndicator className="hidden sm:flex sm:flex-col sm:justify-start sm:items-start sm:px-8 sm:p-10 sm:gap-6">
+          <StepsIndicator className="hidden sm:flex sm:flex-col sm:items-start sm:px-8 sm:p-10 sm:gap-6">
             <StepItem
               onClick={() => setNumber(1)}
               active={number === 1}
